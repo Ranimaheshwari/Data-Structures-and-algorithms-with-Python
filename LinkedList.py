@@ -12,7 +12,7 @@ class LinkedList:
     
     def print_ll(self):
         if self.isempty():
-            print("hey! LL is empty..")
+            print("hi! LL is empty..")
             return
         print("Your LL is ->")
         itr = self.head
@@ -73,7 +73,7 @@ class LinkedList:
                                 \ _ _/
         '''
         if index<0 or index>self.get_length():
-            return "INVALID INDEX!!!"
+            return "invalid index!!!"
         
         elif index == 0:
             self.head = self.head.next
