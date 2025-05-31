@@ -24,6 +24,9 @@ s = ""
 print(valid_parenthesis(s))
 
 class Solution:
+    '''
+    solution is for the valid parenthesis problem
+    '''
     def isValid(self, s: str) -> bool:
         if len(s)<2:
             return False
